@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #0e1f3f;
+  position: sticky;
+  top: 0;
+}
+
+nav h1 {
+  font-size: 25px;
+  margin-left: 80px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+nav .menu {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 17px;
+  margin-right: center;
+}
+
+nav .menu input {
+  display: flex;
+  margin-right: 0px;
+  padding: 10px;
+  align-content: end;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  background-color: #f1eff1;
+  color: #141414;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+nav .menu a {
+  margin-right: 20px;
+  color: #ffff;
+  text-decoration: wavy;
+}
+
+nav .menu a:hover {
+  cursor: pointer;
+  color: darkred;
+}
+
+nav .menu p i {
+  display: flex;
+  margin-left: 10px;
+  align-content: center;
+  color: #ffff;
+  font-size: 20px;
+}
+
+nav .menu p i:hover {
+  cursor: pointer;
+  color: darkorange;
+}
+
+.principale {
+  margin: 20px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  width: 300px;
+  border: solid black 2px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(144, 158, 180);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card img {
+  width: 300px;
+  height: 400px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+  background-color: rgb(0, 89, 255);
+  border-radius: 10px;
+}
+
+.contacts,
+.menus-footer,
+.reseaux-sociaux {
+  width: 30%;
+  padding: 10px;
+}
+.menus-footer {
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+footer .menus-footer a {
+  margin-right: 20px;
+  color: #ffff;
+  text-decoration: wavy;
+}
+
+footer .menus-footer a:hover {
+  cursor: pointer;
+  color: darkred;
+}
+
+.copyright p {
+  font-size: 20px;
+  margin: 10px auto;
+  text-align: center;
+}
